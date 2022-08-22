@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Montserrat:wght@200&display=swap');
+body {
+    background-color: #B150F2;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+
+
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+
+.for{
+    border: 1px  white solid;
+    width: 250px;
+    height: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 18pt;
+    overflow: hidden;
+
+
+}
+
+textarea{
+    resize: none;
+    background-color: rgba(245, 245, 220, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 240px;
+    box-shadow: 1px 1px 10px black;
+    text-align: start;
+    font-family: 'DynaPuff', cursive;
+    display: none;
+    
+
+
+
+}
+input {
+    background-color: rgba(245, 245, 220, 0);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px black;
+    color: white;
+    font-family: 'DynaPuff', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+}
+button{
+    background-color: #7e0097;
+    border: 1px solid white;
+    color: white;
+    font-size: 15pt;
+    border-radius: 20px;
+    width: 150px;
+    font-family: 'DynaPuff', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    transition: ease-in-out 750ms;
+}
+
+button:hover{
+    transition: ease-in-out 750ms;
+    color: blue ;
+    background-color: white;
+}
+
+#b2{
+    display: none;
+    text-align: center;
+    margin: auto;
+}
+
+#c1{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    transition: ease-in-out 750ms;
+}
+#c1:hover{
+    width: 350px;
+    transition: ease-in-out 750ms;
+
+
+}
+
+.c1{
+    margin: 0 auto;
+    text-align: center;
+}
+/* 
+font-family: 'Montserrat', sans-serif; */

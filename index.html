@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Férias</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scr.js"></script>
+    <link rel="shortcut icon" href="imgs/2.png"image/x-icon">
+</head>
+<body>
+
+    <h1 >Olá, seja bem vindo(a)</h1>
+
+    <h2 id="h2">Conte um pouco sobre você</h2>
+    <form class="for" action="">
+      Seu Nome &#x1F58A; <input autocomplete="off"  required id="nome" type="text">     <br>
+      Sua idade &#x1F58A; <input 
+      oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+      autocomplete="off" maxlength="2" required id="idade" type="number">
+      <br>  <br>
+      <textarea name="" id="txtarea" cols="30" rows="10">
+           
+    </textarea>
+    <br>
+  
+
+        <button id="b1" onclick="enviar()">Enviar</button><br>
+        <button id="b2" onclick="enviar2()">Enviar</button>
+    </form>
+    <div class="c1">
+        <img id="c1" src="imgs/1.png" alt="">
+    </div>
+    
+
+</body>
+</html>
